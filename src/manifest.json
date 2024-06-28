@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "DisableShorts",
+    "version": "1.0",
+    "description": "Directs the user away from youtube shorts.",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "https://www.youtube.com/"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.youtube.com/"
+            ],
+            "js": [
+                "content_script.js"
+            ]
+        }
+    ]
+}

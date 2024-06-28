@@ -1,0 +1,20 @@
+{
+  "name": "disableshorts",
+  "version": "0.0.1",
+  "description": "A firefox extension that disables youtube shorts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Carl Lilholm Michelsen",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/firefox-webext-browser": "^120.0.4",
+    "copy-webpack-plugin": "^12.0.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.2",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
